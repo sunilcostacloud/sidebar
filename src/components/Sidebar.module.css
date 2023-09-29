@@ -1,0 +1,41 @@
+.SidebarParent {
+  background: #cf3d2a;
+}
+
+.SidebarLink {
+  text-decoration: none;
+}
+
+.SidebarContainer {
+  width: 250px;
+  height: 100vh;
+}
+
+.SidebarBehindTheScenes {
+  width: 250px;
+}
+
+.SidebarItem {
+  padding: 16px 24px;
+  transition: all 0.25s ease-in-out;
+  margin: 4px 12px;
+  border-radius: 4px;
+}
+
+.SidebarItem p {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.SidebarItem.active {
+  background: #b15b00;
+}
+
+.SidebarItem:hover {
+  cursor: pointer;
+}
+
+.SidebarItem:hover:not(:first-child) {
+  background: #c34a36;
+}
